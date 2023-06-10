@@ -102,7 +102,7 @@ jobs:
       - name: ⚙️ Build
         run: npm run build
 
-      - name: Cypress run
+      - name: 🌳 Cypress run
         uses: cypress-io/github-action@v5
         with:
           start: npm run start:mocks
